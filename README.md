@@ -43,7 +43,7 @@ If you have suggestions for how gitty-probot could be improved, or want to repor
 
 Do as you wish.
 
-[ISC](LICENSE) © 2018 Nnenna John <mailto:nnennajohn@gmail.com> (https://github.com/nnennajohn/gitty-probot)
+[ISC](LICENSE) © 2018 Nnenna John <https://weekendprojects.io> (https://github.com/nnennajohn/gitty-probot)
 
 ## Anything else?
 
