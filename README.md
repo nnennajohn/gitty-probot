@@ -13,7 +13,7 @@ from Circle-CI.
 
 ## Installation
 
-Visit the [Gitty Probot Page](https://github.com/probot/probot) to install this app on your repo.
+Visit the [Gitty Probot Page](https://github.com/apps/gitty-probot) to install this app on your repo.
 
 ## Further Hacking!
 
