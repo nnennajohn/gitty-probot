@@ -5,11 +5,11 @@ from Circle-CI.
 
 ### Sample CI Success Comment:
 
-![Sample CI Failure Comment](https://imgur.com/a/rMPq0TB)
+![Sample CI Failure Comment](https://i.imgur.com/fdZcy2rg.png)
 
 ### Sample CI Failure Comment:
 
-![Sample CI Failure Comment](https://imgur.com/a/ZrVagHE)
+![Sample CI Failure Comment](https://i.imgur.com/mQDybuI.png)
 
 ## Installation
 
