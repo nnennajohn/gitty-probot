@@ -3,6 +3,14 @@
 A GitHub App built with [Probot](https://github.com/probot/probot) that posts detailed failure logs
 from Circle-CI.
 
+### Sample CI Success Comment:
+
+![Sample CI Failure Comment](https://imgur.com/a/rMPq0TB)
+
+### Sample CI Failure Comment:
+
+![Sample CI Failure Comment](https://imgur.com/a/ZrVagHE)
+
 ## Installation
 
 Visit the [Gitty Probot Page](https://github.com/probot/probot) to install this app on your repo.
