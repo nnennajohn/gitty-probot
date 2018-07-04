@@ -17,7 +17,7 @@ Visit the [Gitty Probot Page](https://github.com/probot/probot) to install this 
 
 ## Further Hacking!
 
-Clone Me 🤘 🤘 🤘
+Clone Me 🤘 🤘 🤘 `git clone https://github.com/nnennajohn/git`
 
 Then 👇
 
