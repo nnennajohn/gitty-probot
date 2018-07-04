@@ -1,0 +1,120 @@
+{
+  "action": "created",
+  "installation": {
+    "id": 230800,
+    "account": {
+      "login": "nnennajohn",
+      "id": 1761197,
+      "node_id": "MDQ6VXNlcjE3NjExOTc=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1761197?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nnennajohn",
+      "html_url": "https://github.com/nnennajohn",
+      "followers_url": "https://api.github.com/users/nnennajohn/followers",
+      "following_url":
+        "https://api.github.com/users/nnennajohn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nnennajohn/gists{/gist_id}",
+      "starred_url":
+        "https://api.github.com/users/nnennajohn/starred{/owner}{/repo}",
+      "subscriptions_url":
+        "https://api.github.com/users/nnennajohn/subscriptions",
+      "organizations_url": "https://api.github.com/users/nnennajohn/orgs",
+      "repos_url": "https://api.github.com/users/nnennajohn/repos",
+      "events_url": "https://api.github.com/users/nnennajohn/events{/privacy}",
+      "received_events_url":
+        "https://api.github.com/users/nnennajohn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "repository_selection": "selected",
+    "access_tokens_url":
+      "https://api.github.com/installations/230800/access_tokens",
+    "repositories_url": "https://api.github.com/installation/repositories",
+    "html_url": "https://github.com/settings/installations/230800",
+    "app_id": 14004,
+    "target_id": 1761197,
+    "target_type": "User",
+    "permissions": {
+      "administration": "write",
+      "repository_hooks": "write",
+      "deployments": "write",
+      "pages": "write",
+      "checks": "write",
+      "repository_projects": "write",
+      "issues": "write",
+      "pull_requests": "write",
+      "contents": "write",
+      "statuses": "write",
+      "metadata": "read",
+      "vulnerability_alerts": "read"
+    },
+    "events": [
+      "check_run",
+      "check_suite",
+      "commit_comment",
+      "create",
+      "delete",
+      "deployment",
+      "deployment_status",
+      "fork",
+      "gollum",
+      "issues",
+      "issue_comment",
+      "label",
+      "member",
+      "membership",
+      "milestone",
+      "organization",
+      "page_build",
+      "project",
+      "project_card",
+      "project_column",
+      "public",
+      "pull_request",
+      "pull_request_review",
+      "pull_request_review_comment",
+      "push",
+      "release",
+      "repository",
+      "status",
+      "team",
+      "team_add",
+      "watch"
+    ],
+    "created_at": 1530674278,
+    "updated_at": 1530674278,
+    "single_file_name": null
+  },
+  "repositories": [
+    {
+      "id": 138288781,
+      "name": "gitty-probot-test",
+      "full_name": "nnennajohn/gitty-probot-test",
+      "private": false
+    }
+  ],
+  "sender": {
+    "login": "nnennajohn",
+    "id": 1761197,
+    "node_id": "MDQ6VXNlcjE3NjExOTc=",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1761197?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nnennajohn",
+    "html_url": "https://github.com/nnennajohn",
+    "followers_url": "https://api.github.com/users/nnennajohn/followers",
+    "following_url":
+      "https://api.github.com/users/nnennajohn/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nnennajohn/gists{/gist_id}",
+    "starred_url":
+      "https://api.github.com/users/nnennajohn/starred{/owner}{/repo}",
+    "subscriptions_url":
+      "https://api.github.com/users/nnennajohn/subscriptions",
+    "organizations_url": "https://api.github.com/users/nnennajohn/orgs",
+    "repos_url": "https://api.github.com/users/nnennajohn/repos",
+    "events_url": "https://api.github.com/users/nnennajohn/events{/privacy}",
+    "received_events_url":
+      "https://api.github.com/users/nnennajohn/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+}
