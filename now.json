@@ -1,11 +1,3 @@
 {
-  "alias": "https://gitty-probot.now.sh",
-  "env": {
-    "APP_ID": 14004,
-    "WEBHOOK_SECRET": "development",
-    "NODE_ENV": "production",
-    "PRIVATE_KEY_BASE64": "\"$(cat ./gitty-private-key.pem | base64)\"",
-    "PRIVATE_KEY_PATH": "./gitty-private-key.pem",
-    "LOG_LEVEL": "trace"
-  }
+  "alias": "https://gitty-probot.now.sh"
 }
