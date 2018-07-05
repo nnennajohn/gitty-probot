@@ -1,5 +1,13 @@
 const get = require('lodash.get')
 
+function getFromPath (data, path) {
+  const pathArray = path ? path.split('.') : []
+  return pathArray.reduce(
+    (obj, key) => (obj && obj[key] ? obj[key] : undefined),
+    data
+  )
+}
+
 function capitalizeString (str) {
   return str
     .charAt(0)
@@ -33,14 +41,15 @@ const getGittyData = async context => {
   const buildNumber = repoPathPlusBuildNum[1].split('/')[2]
 
   // Get Owner, Repo and IssueNumber for comments
-  const { owner, repo } = context.repo()
-  const pullRequests = await context.github.pullRequests.getAll({
-    owner,
-    repo,
-    head: `${commit.author.login}:${branches[0].name}`
-  })
-  const pullRequest = get(pullRequests, 'data[0]', {})
-  const { number } = pullRequest
+  const { owner, repo, number } = context.issue()
+  // const { owner, repo } = context.repo()
+  // const pullRequests = await context.github.pullRequests.getAll({
+  //   owner,
+  //   repo,
+  //   head: `${commit.author.login}:${branches[0].name}`
+  // })
+  // const pullRequest = get(pullRequests, 'data[0]', {})
+  // const { number } = pullRequest
 
   return {
     sha,
@@ -53,7 +62,11 @@ const getGittyData = async context => {
     capitalizedBuildState: capitalizeString(state),
     buildStateDescription: description,
     committerName: commit.author.login,
-    committerFullName: get(commit, 'commit.committer.name', `A team member's`),
+    committerFullName: getFromPath(
+      commit,
+      'commit.committer.name',
+      `A team member's`
+    ),
     branchName: branches[0].name,
     repoPathPlusBuildNum: repoPathPlusBuildNum[1],
     ciRestUrlWithoutToken,
