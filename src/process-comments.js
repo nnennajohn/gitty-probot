@@ -1,8 +1,6 @@
 const dedent = require('dedent')
 const stripAnsi = require('strip-ansi')
 
-// Temp. Mess with this and get working before going full CircleCI ish. :)
-
 const processSuccessMessage = async (context, gittyData) => {
   await context.github.issues.createComment({
     owner: gittyData.owner,
